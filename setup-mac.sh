@@ -17,6 +17,7 @@ brew update
 #    google-chrome
 #    iterm2
 #		 visual-studio-code
+#		 docker
 #)
 #echo "Installing cask apps..."
 #brew cask install ${CASKS[@]}
