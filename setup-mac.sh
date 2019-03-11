@@ -33,6 +33,8 @@ brew install zsh-syntax-highlighting
 brew install git
 brew install tig
 
+#Install Node
+brew install node
 
 #Setting up git username and email for global
 git config --global user.name "Cos Amornthip"
