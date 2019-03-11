@@ -44,6 +44,8 @@ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 #Put this at the top of your .vimrc to use Vundle. Remove plugins you don't need, they are for illustration purposes.
 #https://github.com/VundleVim/Vundle.vim?utm_campaign=free-traffic&utm_source=solutions-softonic-com&utm_medium=referral
 
+#Install asdf to control version of ruby, node
+git clone https://github.com/asdf-vm/asdf.git ~/.asdf --branch v0.7.0
 
 # Require password as soon as screensaver or sleep mode starts
 defaults write com.apple.screensaver askForPassword -int 1
