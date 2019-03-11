@@ -30,11 +30,16 @@ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/i
 #install zsh syntax highlight
 brew install zsh-syntax-highlighting
 
+echo "Installing git & tig..."
 brew install git
 brew install tig
 
 #Install Node
+echo "Installing Node..."
 brew install node
+
+echo "Installing yarn..."
+brew install yarn
 
 #Setting up git username and email for global
 git config --global user.name "Cos Amornthip"
