@@ -31,6 +31,11 @@ brew install zsh-syntax-highlighting
 brew install git
 brew install tig
 
+
+#Setting up git username and email for global
+git config --global user.name "Cos Amornthip"
+git config --global user.email amornthip.rak@gmail.com
+
 #Setting up Vim pluging manager
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
